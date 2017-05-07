@@ -22,7 +22,7 @@ class App extends Component {
               <div className="legend-medium-color"></div>
               <div className="legend-medium-text">Medium</div>
             </div>
-            <div className="legend-high">
+            <div className="legend-low">
               <div className="legend-low-color"></div>
               <div className="legend-low-text">Low</div>
             </div>

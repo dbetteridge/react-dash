@@ -15,7 +15,7 @@
 }
 
 .overlay-legend {
-  height: 200px;
+  height: 140px;
   width: 200px;
   background-color: white;
   z-index: 1;
@@ -43,52 +43,57 @@
   height: 20px;
   width: 20px;
   background-color: red;
-  margin: 10%;
   float: left;
+  margin-left:20px;
 }
 
 .legend-medium-color {
   height: 20px;
   width: 20px;
   background-color: orange;
-  margin: 10%;
   float: left;
+  margin-left:20px;
 }
 
 .legend-low-color {
   height: 20px;
   width: 20px;
   background-color:yellow;
-  margin: 10%;
   float: left;
+  margin-left:20px;
 }
 
 .legend-high-text {
   float: left;
-  margin: 10%;
+  margin-left:20px;
 }
 
 .legend-medium-text {
   float: left;
-  margin: 10%;
+  margin-left:20px;
 }
 
 .legend-low-text {
   float: left;
-  margin: 10%;
+  margin-left:20px;
 }
 
 .legend-high {
   width: 200px;
-  height: 60px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 20%;
 }
 
 .legend-medium {
   width: 200px;
-  height: 60px;
+  height: 20px;
+  margin-left: 20%;
 }
 
 .legend-low {
   width: 200px;
-  height: 60px;
+  height: 20px;
+  margin-left: 20%;
+  margin-bottom:60px;
 }
