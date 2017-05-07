@@ -2,3 +2,93 @@
   overflow: visible;
   height: 100vh;
 }
+
+.overlay-metrics {
+  height: 300px;
+  width: 200px;
+  background-color:white;
+  z-index: 1;
+  position: absolute;
+  top: 10vh;
+  left: 82vw;
+  opacity: 0.9;
+}
+
+.overlay-legend {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top: 55vh;
+  left: 82vw;
+  opacity: 0.7;
+}
+
+.metric-title {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 1%;
+}
+
+.legend-title {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  padding: 1%;
+}
+
+.legend-high-color {
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  margin: 10%;
+  float: left;
+}
+
+.legend-medium-color {
+  height: 20px;
+  width: 20px;
+  background-color: orange;
+  margin: 10%;
+  float: left;
+}
+
+.legend-low-color {
+  height: 20px;
+  width: 20px;
+  background-color:yellow;
+  margin: 10%;
+  float: left;
+}
+
+.legend-high-text {
+  float: left;
+  margin: 10%;
+}
+
+.legend-medium-text {
+  float: left;
+  margin: 10%;
+}
+
+.legend-low-text {
+  float: left;
+  margin: 10%;
+}
+
+.legend-high {
+  width: 200px;
+  height: 60px;
+}
+
+.legend-medium {
+  width: 200px;
+  height: 60px;
+}
+
+.legend-low {
+  width: 200px;
+  height: 60px;
+}

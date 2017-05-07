@@ -8,8 +8,8 @@ class Overlay extends Component {
     var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v9',
-    center: [-74.50, 40], // starting position
-    zoom: 9 // starting zoom
+    center: [115.8605, -31.9505], // starting position
+    zoom: 11 // starting zoom
     });
   }
 
